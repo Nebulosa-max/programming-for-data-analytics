@@ -1,6 +1,6 @@
 # programming-for-data-analytics
 
-This repository is for my ATU module.
+This repository is for my  programming-for-data-analytics module
 
 - **assignments/** → work for assessments  
 - **project/** → final project  
