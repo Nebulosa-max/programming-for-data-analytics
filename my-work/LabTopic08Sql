@@ -1,0 +1,48 @@
+-- Lab 08 SQL: MySQL setup and database exercises
+
+-- Show databases
+SHOW DATABASES;
+
+-- Create and use database
+CREATE DATABASE pfda;
+USE pfda;
+
+-- Create student table
+CREATE TABLE student (
+    id INT,
+    firstname VARCHAR(100),
+    age INT
+);
+
+-- Insert data
+INSERT INTO student (id, firstname, age)
+VALUES (1, 'joe', 56);
+
+-- View data
+SELECT * FROM student;
+
+-- Update data
+UPDATE student
+SET firstname = 'mary'
+WHERE id = 1;
+
+-- Delete data
+DELETE FROM student
+WHERE id = 1;
+
+-- Create book table
+CREATE TABLE book (
+    id INT,
+    title VARCHAR(100),
+    author VARCHAR(100),
+    price DECIMAL(5,2)
+);
+
+-- Insert data into book
+INSERT INTO book (id, title, author, price)
+VALUES (1, 'SQL Basics', 'John Smith', 19.99);
+
+-- View book table
+SELECT * FROM book;
+
+
